@@ -33,7 +33,7 @@ public extension View {
 fileprivate struct SearchBar<ResultContent: View>: UIViewControllerRepresentable {
     @Binding
     var text: String
-    let placeholder: String?
+    var placeholder: String?
     let hidesNavigationBarDuringPresentation: Bool
     let hidesSearchBarWhenScrolling: Bool
     let cancelClicked: () -> Void
