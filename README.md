@@ -14,7 +14,7 @@ let package = Package(
 
   dependencies: [
     .package(
-      url: "https://github.com/thislooksfun/SwiftlySearch.git",
+      url: "https://github.com/WilderLopez/SwiftlySearch.git",
       from: "1.0.0"),
 
     ...
@@ -27,7 +27,7 @@ let package = Package(
 ### In Xcode:
 
 1. Go to File > Swift Packages > Add Package Depencency...
-2. Enter `https://github.com/thislooksfun/SwiftlySearch` as the URL
+2. Enter `https://github.com/WilderLopez/SwiftlySearch` as the URL
 3. Select your desired versioning constraint
 4. Click Next
 5. Click Finish
